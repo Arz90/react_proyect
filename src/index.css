@@ -19,7 +19,7 @@
 
   /* Agrega aquí tus estilos para dispositivos móviles */
   body {
-    background-color: pink;
+    background-color: rgb(211, 35, 64);
   }
 
 }
@@ -28,7 +28,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #c1a415;
   }
 
 }

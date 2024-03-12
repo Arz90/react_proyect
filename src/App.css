@@ -1,3 +1,52 @@
+.title {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+}
+
+
+.photo {
+  border-radius: 50%;
+  border: 6px double black;
+
+}
+
+.coleccion{
+  margin: 0 auto;
+  font-size: 50px;
+  color: rgb(150, 27, 47);
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.clothes{
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 45px;
+    
+}
+
+.click{
+  width: 270px;
+  height: 80px;
+  margin: 20px ;
+  font-size: 40px;
+  color: black;
+  border: 4px solid rgb(113, 106, 44);
+  border-radius: 30px;
+  background-color: rgb(219, 212, 104);
+}
+
+.click:hover{
+  background-color: antiquewhite;
+  cursor: pointer;
+} 
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -11,9 +60,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +73,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
